@@ -1,0 +1,95 @@
+   
+        /* Style global pour le tableau */
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
+        /* Style pour toutes les cellules du tableau */
+        th, td {
+            border: 1px solid blue;
+            padding: 8px;
+        }
+        
+        /* Style pour les en-têtes */
+        th {
+            background-color: #fafcfc;
+            color: rgb(235, 137, 17);
+        }
+        
+        /* Style pour les cellules de cours */
+        .course {
+            background-color: #ebf8d1;
+            color: rgb(235, 137, 17);
+            text-align: center;
+            width: 20%;
+        }
+        
+        /* Style pour les professeurs */
+        .prof {
+            background-color: #ebf8d1;
+            color: rgb(15, 44, 10);
+            text-align: center;
+            width: 4.5%;
+        }
+        .prof a {
+            color: rgb(5, 5, 5);
+            text-decoration: none;
+            display: block;
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+            padding: 8px 4px;
+            transition: all 0.3s ease;
+            outline: none;
+        }
+        
+        /* Style pour les TP */
+        .tp {
+            background-color: rgb(255, 255, 255);
+            color: rgb(235, 17, 17);
+            text-align: center;
+            width: 20%;
+        }
+        
+        /* Style pour les cellules vides de TP */
+        .tpvide {
+            background-color: rgb(255, 255, 255);
+            text-align: center;
+            width: 4.5%;
+        }
+        
+        /* Style pour la colonne de séparation */
+        .separateur {
+            width: 1%;
+            border: none;
+        }
+        
+        .day {
+            width: 8%;
+            text-align: center;
+            color: rgb(235, 137, 17);
+            background-color: #fafcfc;
+        }
+        .course a {
+            color: rgb(235, 137, 17);
+            text-decoration: none;
+            display: block;
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+            padding: 8px 4px;
+            transition: all 0.3s ease;
+            outline: none;
+          }
+        .course:hover {
+            background-color: #d9f0a3;
+            transform: scale(1.02);
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            z-index: 1;
+        }        
+        
+       
+        
+        
+   
